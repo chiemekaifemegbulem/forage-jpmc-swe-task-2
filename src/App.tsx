@@ -31,7 +31,7 @@ class App extends Component<{}, IState> {
       });
     };
 
-    // Start fetching data every 100ms
+    // Start fetching data every 100ms perfert
     this.intervalId = setInterval(fetchData, 100);
   }
 
